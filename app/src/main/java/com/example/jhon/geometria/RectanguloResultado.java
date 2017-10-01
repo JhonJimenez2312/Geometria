@@ -23,7 +23,7 @@ public class RectanguloResultado extends AppCompatActivity {
         resources = this.getResources();
         res= (TextView) findViewById(R.id.txtResultadoArea);
         Bundle datos = this.getIntent().getExtras();
-        int val = datos.getInt("areaRectangulo");
+        double val = datos.getDouble("areaRectangulo");
         res.setText(""+val);
 
 

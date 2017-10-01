@@ -5,16 +5,16 @@
     android:weightSum="1">
 
     <TextView
-        android:id="@+id/txtCuadradoResultado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/cuadrado"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+    android:id="@+id/txtCuadradoResultado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cuadrado"
+    android:textAlignment="center"
+    android:textSize="18sp"
+    android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/txtResultadoArea"
+        android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

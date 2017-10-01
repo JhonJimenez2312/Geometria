@@ -24,21 +24,19 @@
             android:layout_width="107dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:layout_weight="0.41"
             android:text="@string/valorDelLado"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_weight="0.41" />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txtValorLadoCuadrado"
             android:layout_width="128dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_weight="0.40"
+            android:layout_weight="0.41"
             android:ems="10"
-            android:inputType="number"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:inputType="numberDecimal" />
 
     </LinearLayout>
 

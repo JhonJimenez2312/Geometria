@@ -35,14 +35,14 @@ public class Rectangulo extends AppCompatActivity {
 
             baseAux = base.getText().toString();
             alturaAux = altura.getText().toString();
-            int valBase=Integer.parseInt(""+base);
-            int valAltura=Integer.parseInt(""+altura);
-            int area =valBase*valAltura;
+            double valBase=Double.parseDouble(""+baseAux);
+            double valAltura=Double.parseDouble(""+alturaAux);
+            double area =valBase*valAltura;
             //almacenamos la operacion
             String msg=resources.getString(R.string.valorBase)+": "+valBase+"\n"+resources.getString(R.string.valorAltura)+": "+valAltura;
             Operacion o = new Operacion(resources.getString(R.string.areaDelRectangulo),msg,""+area);
             o.guardar();
-            in= new Intent(Rectangulo.this,CuadradoResultado.class);
+            in= new Intent(Rectangulo.this,RectanguloResultado.class);
             in.putExtra("areaRectangulo", area);
             startActivity(in);
 

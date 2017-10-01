@@ -34,7 +34,7 @@ public class Cuadrado extends AppCompatActivity {
         if(validar()){
 
             ladoaux = lado.getText().toString();
-            int val=Integer.parseInt(""+ladoaux);
+            double val=Double.parseDouble(""+ladoaux);
             val=val*val;
             //almacenamos la operacion
             Operacion o = new Operacion(resources.getString(R.string.areaDelCuadrado),resources.getString(R.string.lado)+": "+ladoaux,""+val);

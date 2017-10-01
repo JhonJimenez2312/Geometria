@@ -35,7 +35,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="0.40"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="0.40"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:textSize="24sp"
             android:textStyle="bold" />
 

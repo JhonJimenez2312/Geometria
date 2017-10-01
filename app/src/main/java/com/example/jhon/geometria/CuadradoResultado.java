@@ -24,7 +24,7 @@ public class CuadradoResultado extends AppCompatActivity {
         resources = this.getResources();
         res= (TextView) findViewById(R.id.txtResultadoArea);
         Bundle datos = this.getIntent().getExtras();
-        int val = datos.getInt("areaCuadrado");
+        double val = datos.getDouble("areaCuadrado");
         res.setText(""+val);
 
 
