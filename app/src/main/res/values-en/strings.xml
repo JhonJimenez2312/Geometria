@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geometry</string>
+    <string name="area">Area:</string>
+    <string name="areaDelCirculo">Circle area</string>
+    <string name="areaDelCuadrado">Square area</string>
+    <string name="areaDelRectangulo">Area of rectangle</string>
+    <string name="areaDelTriangulo">Area of triangle</string>
+    <string name="areas">AREAS</string>
+    <string name="borrar">Delete</string>
+    <string name="calcular">Calculate</string>
+    <string name="cilindro">CYLINDER</string>
+    <string name="circulo">CIRCLE</string>
+    <string name="cono">CONE</string>
+    <string name="cubo">CUBE</string>
+    <string name="cuadrado">SQUARE</string>
+    <string name="datos">Data</string>
+    <string name="esfera">SPHERE</string>
+    <string name="lado">Side</string>
+    <string name="mensaje_error_uno">You entered an invalid value.</string>
+    <string name="numero">N°</string>
+    <string name="ok">Ok</string>
+    <string name="operacion">Operation</string>
+    <string name="operacionesRealizadas">OPERATIONS PERFORMED</string>
+    <string name="radio">Radius</string>
+    <string name="rectangulo">RECTANGLE</string>
+    <string name="resultado">Result</string>
+    <string name="triangulo">TRIANGLE</string>
+    <string name="txtValorRadio">Value of radius</string>
+    <string name="valorAltura">Value of height :</string>
+    <string name="valorBase">Value of base</string>
+    <string name="valorDelLado">Value of side :</string>
+    <string name="volumen">volume :</string>
+    <string name="volumenDeLaEsfera">volume of sphere</string>
+    <string name="volumenDelCilindro">Volume of cylinder</string>
+    <string name="volumenDelCono">Volume of cone</string>
+    <string name="volumenDelCubo">Volume of cube</string>
+    <string name="volumenes">VOLUMES</string>
+</resources>

@@ -39,7 +39,7 @@ public class Rectangulo extends AppCompatActivity {
             double valAltura=Double.parseDouble(""+alturaAux);
             double area =valBase*valAltura;
             //almacenamos la operacion
-            String msg=resources.getString(R.string.valorBase)+": "+valBase+"\n"+resources.getString(R.string.valorAltura)+": "+valAltura;
+            String msg=resources.getString(R.string.valorBase)+": "+valBase+"\n"+resources.getString(R.string.valorAltura)+" "+valAltura;
             Operacion o = new Operacion(resources.getString(R.string.areaDelRectangulo),msg,""+area);
             o.guardar();
             in= new Intent(Rectangulo.this,RectanguloResultado.class);
