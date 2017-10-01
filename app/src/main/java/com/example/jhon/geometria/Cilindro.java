@@ -41,7 +41,7 @@ public class Cilindro extends AppCompatActivity {
             double val=Math.PI*Math.pow(radiox,2.0)*alturax;
 
             //almacenamos la operacion
-            String msg=resources.getString(R.string.txtValorRadio)+": "+radiox+"\n"+resources.getString(R.string.valorAltura)+": "+alturax;
+            String msg=resources.getString(R.string.txtValorRadio)+" "+radiox+"\n"+resources.getString(R.string.valorAltura)+" "+alturax;
             Operacion o = new Operacion(resources.getString(R.string.volumenDelCilindro),msg,""+val);
             o.guardar();
             in= new Intent(Cilindro.this,CilindroResultado.class);

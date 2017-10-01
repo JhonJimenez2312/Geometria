@@ -45,7 +45,7 @@
     <string name="lado">Lado</string>
     <string name="radio">Radio</string>
     <string name="valorBase">Valor de la base</string>
-    <string name="valorAltura">Valor de la altura</string>
+    <string name="valorAltura">Valor de la altura :</string>
     <string name="txtValorRadio">Valor del radio :</string>
     <string name="volumenDelCubo">Volumen del cubo</string>
     <string name="volumenDelCono">Volumen del cono</string>
