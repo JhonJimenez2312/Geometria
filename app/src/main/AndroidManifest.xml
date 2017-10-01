@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jhon.geometria">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Areas"/>
+        <activity android:name=".Volumenes"/>
+        <activity android:name=".OperacionesRealizadas"/>
+        <activity android:name=".Cuadrado"/>
+        <activity android:name=".CuadradoResultado"/>
+        <activity android:name=".Rectangulo"/>
+        <activity android:name=".RectanguloResultado"/>
+        <activity android:name=".Triangulo"/>
+        <activity android:name=".TrianguloResultado"/>
+        <activity android:name=".Circulo"/>
+        <activity android:name=".CirculoResultado"/>
+        <activity android:name=".Esfera"/>
+        <activity android:name=".EsferaResultado"/>
+        <activity android:name=".Cilindro"/>
+        <activity android:name=".CilindroResultado"/>
+        <activity android:name=".Cono"/>
+        <activity android:name=".ConoResultado"/>
+        <activity android:name=".Cubo"/>
+        <activity android:name=".CuboResultado"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">geometria</string>
+    <string name="areas">AREAS</string>
+    <string name="volumenes">VOLÚMENES</string>
+    <string name="operacionesRealizadas">OPERACIONES REALIZADAS</string>
+    <array name="Opciones">
+        <item>@string/areas</item>
+        <item>@string/volumenes</item>
+        <item>@string/operacionesRealizadas</item>
+    </array>
+    <string name="cuadrado">CUADRADO</string>
+    <string name="rectangulo">RECTÁNGULO</string>
+    <string name="triangulo">TRIÁNGULO</string>
+    <string name="circulo">CÍRCULO</string>
+    <array name="OpcionesAreas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </array>
+    <string name="esfera">ESFERA</string>
+    <string name="cilindro">CILINDRO</string>
+    <string name="cono">CONO</string>
+    <string name="cubo">CUBO</string>
+    <array name="OpcionesVolumenes">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </array>
+    <string name="numero">N°</string>
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="valorDelLado">Valor del lado :</string>
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
+    <string name="mensaje_error_uno">Ingresó un valor invalido.</string>
+    <string name="areaDelCuadrado">Area del cuadrado</string>
+    <string name="areaDelRectangulo">Area del rectángulo</string>
+    <string name="areaDelTriangulo">Area del triángulo</string>
+    <string name="areaDelCirculo">Area del círculo</string>
+    <string name="area">Area:</string>
+    <string name="ok">Ok</string>
+    <string name="lado">Lado</string>
+    <string name="valorBase">Valor de la base</string>
+    <string name="valorAltura">Valor de la altura</string>
+
+
+</resources>
