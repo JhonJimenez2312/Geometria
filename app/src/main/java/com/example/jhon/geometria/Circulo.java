@@ -38,7 +38,7 @@ public class Circulo extends AppCompatActivity {
             double val=(radio*radio)*Math.PI;
 
             //almacenamos la operacion
-            Operacion o = new Operacion(resources.getString(R.string.areaDelCirculo),resources.getString(R.string.lado)+": "+ladoaux,""+val);
+            Operacion o = new Operacion(resources.getString(R.string.areaDelCirculo),resources.getString(R.string.radio)+": "+ladoaux,""+val);
             o.guardar();
             in= new Intent(Circulo.this,CirculoResultado.class);
             in.putExtra("areaCirculo", val);

@@ -30,10 +30,10 @@
 
         <TextView
             android:id="@+id/txtAreaEsferaResultado"
-            android:layout_width="69dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="90dp"
-            android:text="@string/area"
+            android:text="@string/volumen"
             android:textSize="18sp" />
 
         <TextView

@@ -38,7 +38,7 @@ public class Esfera extends AppCompatActivity {
             double val=(4.0/3.0)*Math.PI*Math.pow(radio,3.0);
 
             //almacenamos la operacion
-            Operacion o = new Operacion(resources.getString(R.string.volumenDeLaEsfera),resources.getString(R.string.lado)+": "+ladoaux,""+val);
+            Operacion o = new Operacion(resources.getString(R.string.volumenDeLaEsfera),resources.getString(R.string.radio)+": "+ladoaux,""+val);
             o.guardar();
             in= new Intent(Esfera.this,EsferaResultado.class);
             in.putExtra("VolumenEsfera", val);

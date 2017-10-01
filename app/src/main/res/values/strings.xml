@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">geometria</string>
-    <string name="areas">AREAS</string>
+    <string name="areas">ÁREAS</string>
     <string name="volumenes">VOLÚMENES</string>
     <string name="operacionesRealizadas">OPERACIONES REALIZADAS</string>
     <array name="Opciones">
@@ -36,13 +36,14 @@
     <string name="calcular">Calcular</string>
     <string name="borrar">Borrar</string>
     <string name="mensaje_error_uno">Ingresó un valor invalido.</string>
-    <string name="areaDelCuadrado">Area del cuadrado</string>
-    <string name="areaDelRectangulo">Area del rectángulo</string>
-    <string name="areaDelTriangulo">Area del triángulo</string>
-    <string name="areaDelCirculo">Area del círculo</string>
-    <string name="area">Area:</string>
+    <string name="areaDelCuadrado">Área del cuadrado</string>
+    <string name="areaDelRectangulo">Área del rectángulo</string>
+    <string name="areaDelTriangulo">Área del triángulo</string>
+    <string name="areaDelCirculo">Área del círculo</string>
+    <string name="area">Área:</string>
     <string name="ok">Ok</string>
     <string name="lado">Lado</string>
+    <string name="radio">Radio</string>
     <string name="valorBase">Valor de la base</string>
     <string name="valorAltura">Valor de la altura</string>
     <string name="txtValorRadio">Valor del radio :</string>
@@ -50,5 +51,6 @@
     <string name="volumenDelCono">Volumen del cono</string>
     <string name="volumenDelCilindro">Volumen del cilindro</string>
     <string name="volumenDeLaEsfera">Volumen de la esfera</string>
+    <string name="volumen">Volumen :</string>
 
 </resources>
