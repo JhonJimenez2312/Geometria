@@ -35,15 +35,19 @@ public class Volumenes extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 switch (i){
                     case 0:
-                        in= new Intent(Volumenes.this,Areas.class);
+                        in= new Intent(Volumenes.this,Esfera.class);
                         startActivity(in);
                         break;
                     case 1:
-                        in= new Intent(Volumenes.this,Volumenes.class);
+                        in= new Intent(Volumenes.this,Cilindro.class);
                         startActivity(in);
                         break;
                     case 2:
-                        in= new Intent(Volumenes.this,OperacionesRealizadas.class);
+                        in= new Intent(Volumenes.this,Cono.class);
+                        startActivity(in);
+                        break;
+                    case 3:
+                        in= new Intent(Volumenes.this,Cubo.class);
                         startActivity(in);
                         break;
                 }
